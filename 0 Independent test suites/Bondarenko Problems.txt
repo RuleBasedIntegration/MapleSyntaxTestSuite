@@ -30,7 +30,7 @@ lst:=[
 [1/(cos(x)+cos(3*x))^5,x,-45,-523/256*arctanh(sin(x))+1/32*sin(x)/(1-2*sin(x)^2)^4-17/192*sin(x)/(1-2*sin(x)^2)^3+203/768*sin(x)/(1-2*sin(x)^2)^2-437/512*sin(x)/(1-2*sin(x)^2)+1483/512*arctanh(sin(x)*sqrt(2))/sqrt(2)-43/256*sec(x)*tan(x)-1/128*sec(x)^3*tan(x)],
 [1/(1+cos(x)+sin(x))^2,x,3,-log(1+tan(1/2*x))+(-cos(x)+sin(x))/(1+cos(x)+sin(x))],
 [sqrt(1+tanh(4*x)),x,2,1/2*arctanh(sqrt(1+tanh(4*x))/sqrt(2))/sqrt(2)],
-[tanh(x)/sqrt(exp(x)+exp(2*x)),x,-13,arctan(1/2*(I+(1+2*I)*exp(x))/(sqrt(1-I)*sqrt(exp(x)+exp(2*x))))/sqrt(1-I)-arctan(1/2*(I+(-1+2*I)*exp(x))/(sqrt(1+I)*sqrt(exp(x)+exp(2*x))))/sqrt(1+I)+2*sqrt(exp(x)+exp(2*x))/exp(x)],
+[tanh(x)/sqrt(exp(x)+exp(2*x)),x,-11,arctan(1/2*(I+(1+2*I)*exp(x))/(sqrt(1-I)*sqrt(exp(x)+exp(2*x))))/sqrt(1-I)-arctan(1/2*(I+(-1+2*I)*exp(x))/(sqrt(1+I)*sqrt(exp(x)+exp(2*x))))/sqrt(1+I)+2*sqrt(exp(x)+exp(2*x))/exp(x)],
 [sqrt(sinh(2*x)/cosh(x)),x,5,2*I*sqrt(cos(1/4*Pi-1/2*I*x)^2)/cos(1/4*Pi-1/2*I*x)*EllipticE(sin(1/4*Pi-1/2*I*x),sqrt(2))*sqrt(2)*sqrt(sinh(x))/sqrt(I*sinh(x)),2*I*sqrt(cos(1/4*Pi-1/2*I*x)^2)/cos(1/4*Pi-1/2*I*x)*EllipticE(sin(1/4*Pi-1/2*I*x),sqrt(2))*sqrt(sech(x)*sinh(2*x))/sqrt(I*sinh(x))],
 [log(x^2+sqrt(1-x^2)),x,-31,-2*x-arcsin(x)+x*log(x^2+sqrt(1-x^2))+arctanh(x*sqrt(2/(-1+sqrt(5))))*sqrt(1/2*(-1+sqrt(5)))-arctanh(x*sqrt(1/2*(-1+sqrt(5)))/sqrt(1-x^2))*sqrt(1/2*(-1+sqrt(5)))+arctan(x*sqrt(2/(1+sqrt(5))))*sqrt(1/2*(1+sqrt(5)))+arctan(x*sqrt(1/2*(1+sqrt(5)))/sqrt(1-x^2))*sqrt(1/2*(1+sqrt(5)))],
 [log(1+exp(x))/(1+exp(2*x)),x,12,-1/2*log((1/2-1/2*I)*(I-exp(x)))*log(1+exp(x))-1/2*log((-1/2-1/2*I)*(I+exp(x)))*log(1+exp(x))-polylog(2,-exp(x))-1/2*polylog(2,(1/2-1/2*I)*(1+exp(x)))-1/2*polylog(2,(1/2+1/2*I)*(1+exp(x)))],
